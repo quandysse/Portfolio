@@ -3,5 +3,24 @@ body, html{
     margin: 0;
     height: 100%;
     width: 100%;
-    background-color: aquamarine;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-grey-home{
+    height: 96%;
+    width: 97%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.background-image{
+    height: 100%;
+    width: 100%;
+    background-color: #f1f1f1;
+    /* background-image: url("group-14.png");
+    background-image: url("group-14 copie.png"); */
+    background-repeat: no-repeat;
 }
