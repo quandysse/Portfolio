@@ -4,23 +4,134 @@ body, html{
     height: 100%;
     width: 100%;
     background-color: white;
+   
+}
+.section1{
+    height: 100%;
+    width: 100%;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-.background-grey-home{
-    height: 96%;
+.background-color-grey{
+    height: 95%;
     width: 97%;
-    background-color: #f1f1f1;
+    background-color: deeppink;
+    background-image: url(frame-2.png);
+    background-repeat:no-repeat;
+    /* object-fit: cover; */
+    background-size: cover;
     display: flex;
-    justify-content: space-between ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
 }
 
-.background-image{
+.text-container{
+    height: 40%;
+    width: 32%;
+    /* background-color: dodgerblue; */
+    text-align: center;
+}
+
+h1{
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 72px;
+    line-height: 6rem;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+.about-div{
+    height: 40%;
+    will-change: 100%;
+    /* background-color: fuchsia; */
+    padding: 1rem 5rem 0 5rem;
+}
+.about{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+.nav-container{
     height: 100%;
     width: 100%;
-    background-color: #f1f1f1;
-    /* background-image: url("group-14.png");
-    background-image: url("group-14 copie.png"); */
-    background-repeat: no-repeat;
+    background-color: yellowgreen;
+    display: flex;
+    align-content: flex-end;
+}
+nav{
+    height: 6rem;
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    /* background: #f5f5f5; */
+    background: #ebebeb; 
+    position: fixed;
+    margin-bottom: 5rem;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0,.15);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    font-size: 18px;
+    font-family: 'Palanquin', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    line-height: 5rem;
+}
+nav .animation{
+    height: 5px;
+    background-color: #EC3634;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    transition: all .5s ease 0;
+}
+a:nth-child(1){
+    width: 100px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+}
+
+a:nth-child(2){
+    width: 100px;
+    left: 0;
+}
+nav .start-home, a:nth-child(2):hover~.animation {
+    width: 100px;
+    left: 0;
+}
+
+a:nth-child(3){
+    width: 100px;
+    left: 0;
+}
+a:nth-child(4){
+    width: 100px;
+    left: 0;
+}
+a:nth-child(5){
+    width: 100px;
+    left: 0;
+}
+a:nth-child(6){
+    width: 100px;
+    left: 0;
+}
+
+.section2{
+    height: 100%;
+    width: 100%;
+    background-color: darksalmon;
 }
