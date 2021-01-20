@@ -152,28 +152,28 @@ nav .start-home, a:nth-child(6):hover~.animation {
 .section2{
     height: 100%;
     width: 100%;
-    /* background-color: darksalmon; */
+    background-color: darksalmon;
     background-color: white;
     display: flex;
 }
 .images{
     height: 50%;
     width: 100%;
-    /* background-color: violet; */
+    background-color: violet;
     display: flex;
     justify-content: space-between;
 }
 .image-right-top{
     height: 70%;
     width: 30%;
-    /* background-color: tomato; */
+    background-color: tomato;
     background-image: url(image-right-top-dg.png);
     background-size: cover;
 }
 .image-left-top{
     height: 90%;
     width: 30%;
-    /* background-color:yellow; */
+    background-color:yellow;
     background-image: url(image-pink-form.png);
     background-size: cover;
     background-repeat: no-repeat;
