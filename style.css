@@ -34,7 +34,7 @@ body, html{
 .text-container{
     height: 40%;
     width: 45%;
-    /* background-color: dodgerblue; */
+    background-color: dodgerblue;
     text-align: center;
 }
 h1{
@@ -49,8 +49,9 @@ h2{
 }
 .about-div{
     height: 40%;
-    will-change: 100%;
-    /* background-color: fuchsia; */
+    /* width: 45%; */
+    min-width: 500px;
+    background-color: fuchsia;
     padding: 1rem 5rem 0 5rem;
 }
 .about{
@@ -71,6 +72,7 @@ nav{
     padding-right: 3rem;
     display: flex;
     justify-content: space-between;
+    z-index: 10;
 }
 nav a{
     font-size: 18px;
@@ -159,7 +161,7 @@ nav .start-home, a:nth-child(6):hover~.animation {
 .images{
     height: 100%;
     width: 100%;
-    /* background-color: violet; */
+    background-color: violet;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -175,7 +177,7 @@ nav .start-home, a:nth-child(6):hover~.animation {
     height: 9rem;
     /* width: 10rem; */
     opacity: 60%;
-    /* background-color:yellow; */
+    background-color:yellow;
     align-self: flex-start;
 }
 .logo-anina-image{
@@ -211,4 +213,83 @@ nav .start-home, a:nth-child(6):hover~.animation {
     padding: 4rem;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+}
+
+.section4{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ordi-images{
+    height: 80%;
+    width: 85%;
+    background-color: #E1EAFE;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-blue{
+    height: 80%;
+    width: 85%;
+    background-color: #0040DB;
+    opacity: 20%;
+}
+.ordi-anina-image{
+    height: 33rem;
+    /* background-color: burlywood; */
+}
+.section4{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-container-section4{
+    height: 15%;
+    width: 100%;
+    background-color: violet;
+    /* display: flex;
+    justify-content:flex-start; */
+}
+.image-left-top{
+    height: 9rem;
+    opacity: 60%;
+    background-color:yellow;
+    align-self: flex-start;
+}
+.container-all-section4{
+    height: 100%;
+    width: 100%;
+    background-color:darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gap-image-title{
+    height: 30%;
+    width: 50%;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-gap{
+    height: 15rem;
+}
+.mobil-app-gap{
+    height: 15.3rem;
+}
+.gap-text-style{
+    height: 100%;
+    width: 40%;
+    background-color: darkmagenta;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 42px;
+    text-transform: uppercase;
+    align-self: center;
 }
