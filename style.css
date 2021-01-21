@@ -19,10 +19,8 @@ body, html{
 .background-color-grey{
     height: 95%;
     width: 97%;
-    background-color: deeppink;
+    /* background-color: deeppink; */
     background-image: url(frame-2.png);
-    /* background-repeat:no-repeat; */
-    /* object-fit: cover; */
     background-size: cover;
     display: flex;
     align-items: center;
@@ -34,10 +32,9 @@ body, html{
 .text-container{
     height: 40%;
     width: 45%;
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
     text-align: center;
 }
-
 h1{
     font-family: 'Palanquin Dark', sans-serif;
     font-size: 72px;
@@ -50,8 +47,8 @@ h2{
 }
 .about-div{
     height: 40%;
-    will-change: 100%;
-    background-color: fuchsia;
+    min-width: 500px;
+    /* background-color: fuchsia; */
     padding: 1rem 5rem 0 5rem;
 }
 .about{
@@ -64,14 +61,15 @@ nav{
     width: 80%;
     font-family: 'Roboto', sans-serif;
     /* background: #f5f5f5; */
-    background: #ebebeb; 
+    background: #eeeeee; 
     position: fixed;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0,.15);
     padding-left: 3rem;
     padding-right: 3rem;
     display: flex;
     justify-content: space-between;
+    z-index: 10;
 }
 nav a{
     font-size: 18px;
@@ -92,7 +90,7 @@ nav .animation{
 }
 a:nth-child(1){
     width: 200px;
-    background-color:aqua;
+    /* background-color:aqua; */
     align-self: center;
     text-align: center;
 }
@@ -150,14 +148,142 @@ nav .start-home, a:nth-child(6):hover~.animation {
 }
 
 .section2{
+    height: 80%;
+    width: 100%;
+    /* background-color: darksalmon; */
+    background-color: white;
+    display: flex;
+    margin-top: 9rem;
+}
+.images{
     height: 100%;
     width: 100%;
-    background-color: darksalmon;
+    /* background-color: violet; */
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .image-right-top{
+    height: 16rem;
+    /* width: 24rem; */
+    /* background-color: tomato; */
+    align-self: flex-start;
+}
+.image-left-top{
+    height: 9rem;
+    /* width: 10rem; */
+    opacity: 60%;
+    /* background-color:yellow; */
+    align-self: flex-start;
+}
+.logo-anina-image{
+    max-width: 35%;
+    height: auto;
+    /* background-color: chocolate; */
+    margin-bottom: 7rem;
+    margin-top: 11rem;
+}
+.union.png{
+    height: 2rem;
+    width: 3rem;
+}
+.section3{
+    height: 100%;
+    width: 100%;
+    /* background-color:indigo; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-bag-anina-class{
+    height: 40rem;
+    margin-bottom: 2rem;
+    /* background-color: lightgreen; */
+    padding-right: 25rem;
+    padding-left: 4rem;
+}
+.text-anina-container{
+    height: 20rem;
+    width: 13rem;
+    /* background-color: lightcoral; */
+    padding: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.section4{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ordi-images{
+    height: 80%;
+    width: 85%;
+    background-color: #E1EAFE;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-blue{
+    height: 80%;
+    width: 85%;
+    background-color: #0040DB;
+    opacity: 20%;
+}
+.ordi-anina-image{
+    height: 33rem;
+    /* background-color: burlywood; */
+}
+.section4{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-container-section4{
+    height: 15%;
+    width: 100%;
+}
+.image-left-top{
+    height: 9rem;
+    opacity: 60%;
+    /* background-color:yellow; */
+    align-self: flex-start;
+}
+.container-all-section4{
+    height: 100%;
+    width: 100%;
+    /* background-color:darkgoldenrod; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gap-image-title{
     height: 30%;
-    width: 30%;
-    align-self: end;
-    background-image: url(PORTFOLIO-02.png);
+    width: 50%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-between;
+}
+.logo-gap{
+    height: 15rem;
+}
+.mobil-app-gap{
+    height: 15.3rem;
+}
+.gap-text-style{
+    height: 100%;
+    width: 40%;
+    /* background-color: darkmagenta; */
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 42px;
+    text-transform: uppercase;
+    align-self: center;
 }
