@@ -20,7 +20,7 @@ body, html{
     height: 95%;
     width: 97%;
     /* background-color: deeppink; */
-    background-image: url(frame-2.png);
+    background-image: url(assets/frame-2.png);
     background-size: cover;
     display: flex;
     align-items: center;
