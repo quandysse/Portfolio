@@ -19,10 +19,8 @@ body, html{
 .background-color-grey{
     height: 95%;
     width: 97%;
-    background-color: deeppink;
+    /* background-color: deeppink; */
     background-image: url(frame-2.png);
-    /* background-repeat:no-repeat; */
-    /* object-fit: cover; */
     background-size: cover;
     display: flex;
     align-items: center;
@@ -34,7 +32,7 @@ body, html{
 .text-container{
     height: 40%;
     width: 45%;
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
     text-align: center;
 }
 h1{
@@ -49,9 +47,8 @@ h2{
 }
 .about-div{
     height: 40%;
-    /* width: 45%; */
     min-width: 500px;
-    background-color: fuchsia;
+    /* background-color: fuchsia; */
     padding: 1rem 5rem 0 5rem;
 }
 .about{
@@ -161,7 +158,7 @@ nav .start-home, a:nth-child(6):hover~.animation {
 .images{
     height: 100%;
     width: 100%;
-    background-color: violet;
+    /* background-color: violet; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -177,7 +174,7 @@ nav .start-home, a:nth-child(6):hover~.animation {
     height: 9rem;
     /* width: 10rem; */
     opacity: 60%;
-    background-color:yellow;
+    /* background-color:yellow; */
     align-self: flex-start;
 }
 .logo-anina-image{
@@ -253,20 +250,17 @@ nav .start-home, a:nth-child(6):hover~.animation {
 .form-container-section4{
     height: 15%;
     width: 100%;
-    background-color: violet;
-    /* display: flex;
-    justify-content:flex-start; */
 }
 .image-left-top{
     height: 9rem;
     opacity: 60%;
-    background-color:yellow;
+    /* background-color:yellow; */
     align-self: flex-start;
 }
 .container-all-section4{
     height: 100%;
     width: 100%;
-    background-color:darkgoldenrod;
+    /* background-color:darkgoldenrod; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,7 +268,7 @@ nav .start-home, a:nth-child(6):hover~.animation {
 .gap-image-title{
     height: 30%;
     width: 50%;
-    background-color: crimson;
+    /* background-color: crimson; */
     display: flex;
     justify-content: space-between;
 }
@@ -287,7 +281,7 @@ nav .start-home, a:nth-child(6):hover~.animation {
 .gap-text-style{
     height: 100%;
     width: 40%;
-    background-color: darkmagenta;
+    /* background-color: darkmagenta; */
     font-family: 'Palanquin Dark', sans-serif;
     font-size: 42px;
     text-transform: uppercase;
