@@ -254,7 +254,7 @@ nav .start-home, a:nth-child(6):hover~.animation {
 .image-left-top{
     height: 9rem;
     opacity: 60%;
-    /* background-color:yellow; */
+    background-color:yello w;
     align-self: flex-start;
 }
 .container-all-section4{
@@ -271,6 +271,7 @@ nav .start-home, a:nth-child(6):hover~.animation {
     /* background-color: crimson; */
     display: flex;
     justify-content: space-between;
+    margin-bottom: 6rem;
 }
 .logo-gap{
     height: 15rem;
@@ -286,4 +287,139 @@ nav .start-home, a:nth-child(6):hover~.animation {
     font-size: 42px;
     text-transform: uppercase;
     align-self: center;
+}
+.fas{
+    height: 5rem;
+}
+.section5{
+    height: 90%;
+    width: 100%;
+    background-color:#f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mockup-iphones-gap{
+    height: 70%;
+    width: 90%;
+    /* background-color:sienna; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.gap-app-image{
+    height: 100%;
+    /* background-color: darkblue; */
+}
+.gap-app-image2{
+    height: 100%;
+    /* background-color: darkblue; */
+}
+
+.section6{
+    height: 100%;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.background-grey{
+    height: 76%;
+    width: 91%;
+    background-color:#f4f4f4;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+.forms-container-section-illustration{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    /* background-color: deeppink; */
+}
+.blue-form-section-illustration{
+    height: 15rem;
+    /* background-color: darkred; */
+}
+.red-form-section-illustration{
+    height: 15rem;
+    /* background-color:darkviolet; */
+}
+
+.container-all-saction04{
+    height: 100%;
+    width: 100%;
+    /* background-color: darkcyan; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.text-container-section-illustration-all{
+    height: 42%;
+    width: 24%;
+    /* background-color: lightblue; */
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 0rem;
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+.text-container-section-illustration{
+    /* background-color: deepskyblue; */
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 0rem;
+    align-items: center;
+}
+.illu{
+    height: 10%;
+    width: 52%;
+    /* background-color: indigo; */
+    padding-right: 1rem;
+}
+.illustration-line{
+    height: 0.1rem;
+    width: 16rem;
+    border-top: 2px solid black;
+    /* background-color: green; */
+}
+/* .section-04{
+    height: 72%;
+    width: 14%; */
+    /* display: flex;
+    flex-direction: row; */
+    /* background-color: chocolate;
+} */
+.t-04{
+    height: 35%;
+    width: 15%;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 190px;
+    line-height: 6rem;
+    /* background-color: darkorchid; */
+    padding-left: 3rem;
+}
+.illu-eg-place{
+    height: 100%;
+    width: 50%;
+    /* background-color: darkslateblue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.eg-illu{
+    height: 30rem;
+    image-orientation:flip;
 }
