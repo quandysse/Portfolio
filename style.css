@@ -20,7 +20,7 @@ body, html{
     height: 95%;
     width: 97%;
     /* background-color: deeppink; */
-    background-image: url(frame-2.png);
+    background-image: url(assets/frame-2.png);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -395,13 +395,6 @@ nav .start-home, a:nth-child(6):hover~.animation {
     border-top: 2px solid black;
     /* background-color: green; */
 }
-/* .section-04{
-    height: 72%;
-    width: 14%; */
-    /* display: flex;
-    flex-direction: row; */
-    /* background-color: chocolate;
-} */
 .t-04{
     height: 35%;
     width: 15%;
