@@ -254,7 +254,7 @@ nav .start-home, a:nth-child(6):hover~.animation {
 .image-left-top{
     height: 9rem;
     opacity: 60%;
-    /* background-color:yellow; */
+    background-color:yello w;
     align-self: flex-start;
 }
 .container-all-section4{
@@ -271,6 +271,7 @@ nav .start-home, a:nth-child(6):hover~.animation {
     /* background-color: crimson; */
     display: flex;
     justify-content: space-between;
+    margin-bottom: 6rem;
 }
 .logo-gap{
     height: 15rem;
@@ -286,4 +287,315 @@ nav .start-home, a:nth-child(6):hover~.animation {
     font-size: 42px;
     text-transform: uppercase;
     align-self: center;
+}
+.fas{
+    height: 5rem;
+}
+.section5{
+    height: 90%;
+    width: 100%;
+    background-color:#f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mockup-iphones-gap{
+    height: 70%;
+    width: 90%;
+    /* background-color:sienna; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.gap-app-image{
+    height: 100%;
+    /* background-color: darkblue; */
+}
+.gap-app-image2{
+    height: 100%;
+    /* background-color: darkblue; */
+}
+
+.section6{
+    height: 100%;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.background-grey{
+    height: 76%;
+    width: 91%;
+    background-color:#f4f4f4;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+}
+.forms-container-section-illustration{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    background-color: deeppink;
+}
+.blue-form-section-illustration{
+    height: 15rem;
+    background-color: darkred;
+}
+.red-form-section-illustration{
+    height: 15rem;
+    background-color:darkviolet;
+}
+
+.container-all-saction04{
+    height: 100%;
+    width: 100%;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.text-container-section-illustration-all{
+    height: 42%;
+    width: 24%;
+    background-color: lightblue;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 0rem;
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+.text-container-section-illustration{
+    background-color: deepskyblue;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 0rem;
+    align-items: center;
+}
+.illu{
+    height: 10%;
+    width: 52%;
+    background-color: indigo;
+    padding-right: 1rem;
+}
+.illustration-line{
+    height: 0.1rem;
+    width: 16rem;
+    border-top: 2px solid black;
+    background-color: green;
+}
+.t-04{
+    height: 35%;
+    width: 15%;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 190px;
+    line-height: 6rem;
+    background-color: darkorchid;
+    padding-left: 3rem;
+}
+.illu-eg-place{
+    height: 100%;
+    width: 50%;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.eg-illu{
+    height: 30rem;
+    image-orientation:flip;
+}
+.section7{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.div-left{
+    height: 75%;
+    width: 30%;
+    /* background-color: firebrick; */
+    margin-left: 15rem;
+}
+.div-right{
+    height: 90%;
+    width: 40%;
+    /* background-color:goldenrod; */
+}
+.sub-Saharan-africa-image{
+    height: 30rem;
+}
+.post-insta-1-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+.post-insta-2-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+.grano-image{
+    height: 45rem;
+}
+
+.section8{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-grey{
+    height: 76%;
+    width: 91%;
+    background-color:#eeeeee;
+    display: flex;
+    flex-direction: column;
+   
+}
+.forms-container-section-dessins{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    /* background-color: deeppink; */
+}
+.blue-form-section-dessin{
+    height: 15rem;
+    /* background-color: darkred; */
+}
+.container-all-saction05{
+    height: 40%;
+    width: 100%;
+    /* background-color: darkcyan; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.texte-draw-container{
+    height: 60%;
+    width: 35%;
+    /* background-color: lightblue; */
+    margin-left: 20rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+}
+.red-form-dessin-bottom{
+    width: 100%;
+    height: 100%;
+    /* background-color: hotpink; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.red-form-section-dessin{
+    height: 100%;
+    width: 15%;
+    /* background-color:darkviolet; */
+}
+.dessin-text{
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 100px;
+    line-height: 0rem;
+}
+.dessin-image-section{
+    height: 22rem;
+    width: 18rem;
+}
+.section9{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dessins-container{
+    height: 90%;
+    width: 50%;
+    /* background-color:lavender; */
+    display: flex;
+    flex-direction: column;
+}
+.draw-image-top{
+    height: 50%;
+    width: 100%;
+    /* background-color:mediumpurple; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.gintama-draw{
+    height: 70%;
+}
+.kgm-draw{
+    height: 100%;
+}
+.draw-image-bottom{
+    height: 50%;
+    width: 100%;
+    /* background-color: lawngreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.pixel-draw{
+    height: 100%;
+}
+.allegory-draw{
+    height: 70%;
+}
+
+.section9{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-color-grey-end{
+    height: 95%;
+    width: 97%;
+    /* background-color: deeppink; */
+    background-image: url(assets/frame-2.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-container-thanks{
+height: 30%;
+width: 30%;
+/* background-color: midnightblue; */
+display: flex;
+flex-direction: column;
+font-family: 'Roboto', sans-serif;
+font-size: 93px;
+font-weight: 900;
+text-align: center;
+}
+.text-container-thanks-bottom{
+    height: 20%;
+    width: 100%;
+    /* background-color: olive; */
+    font-size: 22px;
+    font-weight: 100;
 }
